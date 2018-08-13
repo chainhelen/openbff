@@ -1,0 +1,27 @@
+{
+  "name": "bff",
+  "version": "1.0.0",
+  "description": "Backend for Frontends",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "bff",
+    "openbff",
+    "gateway",
+    "data aggregate"
+  ],
+  "author": "chainhelen",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-onerror": "^4.0.0",
+    "koa-router": "^7.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chainhelen/openbff.git"
+  }
+}
