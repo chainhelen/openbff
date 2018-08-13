@@ -1,5 +1,5 @@
 {
-  "name": "bff",
+  "name": "openbff",
   "version": "1.0.0",
   "description": "Backend for Frontends",
   "main": "app.js",
@@ -22,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/chainhelen/openbff.git"
+    "url": "https://github.com/chainhelen/openbff.git"
   }
 }
