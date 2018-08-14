@@ -1,4 +1,3 @@
-let pathMappingToUrl = require('./pathMappingToUrl.js')
 let util = require('util')
 let vm = require('vm')
 const TimeOut = 1000
@@ -71,7 +70,8 @@ module.exports = (obj, $bffData) => {
 
       // handle alias_hot
       if ('alias_host' === key) {
-        let url = pathMappingToUrl(value)
+        // TODO, Should bind url
+        let url = ''
         requestInfo.url = url
       }
       // handle body

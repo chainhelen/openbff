@@ -15,10 +15,13 @@
   "author": "chainhelen",
   "license": "MIT",
   "dependencies": {
+    "http-status": "^1.2.0",
     "koa": "^2.5.2",
     "koa-bodyparser": "^4.2.1",
     "koa-onerror": "^4.0.0",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   },
   "repository": {
     "type": "git",
