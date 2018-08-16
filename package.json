@@ -2,7 +2,7 @@
   "name": "openbff",
   "version": "1.0.0",
   "description": "Backend for Frontends",
-  "main": "app.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "npm test"
   },
@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "http-status": "^1.2.0",
+    "ioredis": "^4.0.0",
     "koa": "^2.5.2",
     "koa-bodyparser": "^4.2.1",
     "koa-onerror": "^4.0.0",
